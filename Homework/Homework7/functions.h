@@ -54,3 +54,4 @@ int TotalEmployee()
 	fclose(file);
 	return total;
 }
+//I made this code with the help of my brother Arturo Sotelo, I couldn't have done without him.
