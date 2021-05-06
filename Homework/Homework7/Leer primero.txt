@@ -1,0 +1,25 @@
+Qué onda carnalito, como estas? espero que bien
+Mira, para usar este programa tendrás que hacer lo siguiente:
+
+1- Tienes que descargar todos los archivos que encuentres en "homework 7" (si quieres este no)
+
+2- Vas a abrir el "total.txt" y lo pones en "0" (esto para que inicie correctamente)
+
+3- Abres Dev C, o cualquier compilador que tengas en tu pc, y primero abrirás "RH.c" y luego "functions.h"
+ y te recomiendo abrir de una vez también el "employees.c"
+
+4- Primero ejecutas RH.c y haces lo del programa y después employees.c, para saber que ocupas hacer lee lo siguiente
+
+¿Qué hacen los programas?
+
+El "RH.c" lo vas a ejecutar y ahí ingresaras 1 para agregar el empleado, pones nombre y das enter.
+Luego ingresaras los días que trabaja tu empleado (esta ordenado como el día 1 = lunes),
+Le pones un 1 para decir que si trabaja ese día, un 0 para indicar que no.
+Te pedirá que pongas las horas que trabaja en ese día y listo, todo esto lo guardará en un nuevo archivo de texto que
+Se llamará "info_employees.txt" AHI PODRAS ENCONTRAR EL PIN, IMPORTANTE PARA USAR EL PROGRAMA "employees.c"
+
+En el programa "employees.c" lo vas a ejecutar y aquí ingresaras el nombre tal cual lo ingresaste y el PIN que encontraste 
+en el archivo que creo el programa anterior.
+Con esta información podrás ingresar las horas que supones que trabaja el empleado, así hasta completar los días que él trabaja.
+Si te equivocas de nombre o pin te dará la opción de cambiar de día o quedarte en ese día e ingresar el nombre y pin correctamente.
+Cuando termines tendrás un nuevo archivo llamado "archivo.txt" y ahí estarán las horas que trabaja el empleado con el PIN que pusiste.
