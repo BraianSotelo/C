@@ -2,6 +2,7 @@ Qué onda carnalito, como estas? espero que bien
 Mira, para usar este programa tendrás que hacer lo siguiente:
 
 1- Tienes que descargar todos los archivos que encuentres en "homework 7" (si quieres este no) Y todo lo pones en una carpeta nueva
+si no te deja descargarlo tienes que crear tu los archvivos tal cual con los nombres y copiar el contenido.
 
 2- Vas a abrir el "total.txt" y lo pones en "0" (esto para que inicie correctamente)
 
@@ -14,7 +15,7 @@ Mira, para usar este programa tendrás que hacer lo siguiente:
 
 El "RH.c" lo vas a ejecutar y ahí ingresaras 1 para agregar el empleado, pones nombre y das enter.
 Luego ingresaras los días que trabaja tu empleado (esta ordenado como el día 1 = lunes),
-Le pones un 1 para decir que si trabaja ese día, un 0 para indicar que no.
+Le pones un 1 para decir que si trabaja ese día, o un 0 para indicar que no.
 Te pedirá que pongas las horas que trabaja en ese día y listo, todo esto lo guardará en un nuevo archivo de texto que
 Se llamará "info_employees.txt" AHI PODRAS ENCONTRAR EL PIN, IMPORTANTE PARA USAR EL PROGRAMA "employees.c"
 
