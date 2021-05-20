@@ -22,4 +22,4 @@ Main.c use an structure to save information and then used in other parts of the 
 Tasks.c is the second program, it is a reader, find the information saved on the text files made for the first program, also has the order to say if you have not time to finish the task with the supposed time that you give. This code contains other function of saving, for example, if you are supposed that you close the program and you didn’t finish all the task that you put there, the code save this information and when you run again the program it will start in the place that you left and when you finish all the activities, also the program finish too.
 
 Reference:
-The bones of the structure part was taked from the code of the homework 7 of the course of structure programming, it is on this repository: "C/Homeworks/Homework7/functions.h"
+The framework of the structure part was taked from the code of the homework 7 of the course of structure programming, it is on this repository: "C/Homeworks/Homework7/functions.h"
