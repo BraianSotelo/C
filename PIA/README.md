@@ -32,8 +32,15 @@ Self evaluation:
 
 3: code 3 (it is clean and have clear comments to understand)
 
-4: storage 2 (use files and structures and good use of space)
+4: storage 3 (use files and structures and good use of space)
 
 5: documentation 3 (all clear and well done)
 
-CF 13 of 15
+CF 14 of 15
+
+
+Personal infromation:
+
+Braian Erick Sotelo Rocha/
+1959340/
+IMTC
