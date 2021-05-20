@@ -34,9 +34,9 @@ Self evaluation:
 
 4: storage 3 (use files and structures and good use of space)
 
-5: documentation 3 (all clear and well done)
+5: documentation 2 (the report is not too much pretty but all is correct)
 
-CF 14 of 15
+CF 13 of 15
 
 
 Personal infromation:
