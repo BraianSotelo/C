@@ -23,3 +23,10 @@ Tasks.c is the second program, it is a reader, find the information saved on the
 
 Reference:
 The framework of the structure part was taked from the code of the homework 7 of the course of structure programming, it is on this repository: "C/Homeworks/Homework7/functions.h"
+
+Self evaluation:
+1: complexity 2 (it is complex but not like all the homeworks made before together)
+2: functionality 3 (it compiles and works very well)
+3: code 3 (it is so much clean and have clear comments to understand)
+4: storage 3 (use files and structures and good use of space)
+5: documentation 3 (all clear and well done)
