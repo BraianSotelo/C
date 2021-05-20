@@ -2,7 +2,7 @@
 
 //FUNCIONES DEL PROGRAMA PRINCIPAL (CREADOR DE LOS ARCHIVOS DE TEXTO)
 
-homework** InfoHW(int count)	//funcion que regresa la información de la estructura 
+homework** InfoHW(int count)	//funcion que regresa la informaciÃ³n de la estructura 
 { 
 	int i;
 	homework** tasks = (homework**)malloc(sizeof(homework*) * count);
@@ -23,7 +23,7 @@ homework** InfoHW(int count)	//funcion que regresa la información de la estructu
 	return tasks;
 }
 
-int Results(homework** info, int count, int free_time)	//aqui recibe la infroramción de InfoHW, del count de las tareas en total, y las horas libre
+int Results(homework** info, int count, int free_time)	//aqui recibe la infroramciÃ³n de InfoHW, del count de las tareas en total, y las horas libre
 {
 	int sum = 0;    //variable que nos serviara para conocer las horas ingresadas
 	int i, j, num_task;
@@ -40,13 +40,13 @@ int Results(homework** info, int count, int free_time)	//aqui recibe la infroram
 	{
 		for(j=0; j<count; j++)//hace que se repita la cantidad de tareas que hay
 		{
-			if(i == info[j]->dif)//i vale la dificultad de la tarea, comienza en 1 por la logística del programador
+			if(i == info[j]->dif)//i vale la dificultad de la tarea, comienza en 1 por la logÃ­stica del programador
 			{
 				fprintf(file, "Task%d - Name: %s - Hours: %d - Difficulty: %d\n", num_task, info[j]->name, info[j]->time, info[j]->dif);
 				num_task++; //da el numero del nuevo orden de las tareas
 			}
 		}
-		if (i == 1)//como el for pasado analizo todas las tareas 1, ahora la logística indica que tiene que empezar desde 5 e irse reduciendo
+		if (i == 1)//como el for pasado analizo todas las tareas 1, ahora la logÃ­stica indica que tiene que empezar desde 5 e irse reduciendo
 		{
 			i = 6;//para empezar con el grado del 5 despues del 1, se pone un 6 porque se resta en el for
 		}
@@ -97,7 +97,7 @@ homework** ReadFile()
 	int count, i, fake, total_finish;
 	FILE* file;
 	char* none = (char*)malloc(sizeof(char) * (MAX_LENGTH));
-	file = fopen("TotalFinish.txt", "r");//es un nuevo archivo de texto creado cuando se termina la tarea y que el dato que se obtiene de aqui, lo leera esta función
+	file = fopen("TotalFinish.txt", "r");//es un nuevo archivo de texto creado cuando se termina la tarea y que el dato que se obtiene de aqui, lo leera esta funciÃ³n
 	fscanf(file, "%u", &(total_finish));
 	fclose(file);
 	file = fopen("order.txt", "r");
@@ -108,7 +108,7 @@ homework** ReadFile()
 	for(i = 0; i < count; i++)//hara que repita el proceso segun las tareas que haya
 	{
 		tasks[i] = (homework*)malloc(sizeof(homework));//crea un apuntador de la estructura
-		tasks[i]->name = (char*)malloc(sizeof(char) * (MAX_LENGTH)); //crea el apuntador para señalar al nombre de la tarea que se ingreso
+		tasks[i]->name = (char*)malloc(sizeof(char) * (MAX_LENGTH)); //crea el apuntador para seÃ±alar al nombre de la tarea que se ingreso
 		fscanf(file, "%s %s %s %s %s %s %u %s %s %u", none, none, none, tasks[i]->name, none, none, &(tasks[i]->time), none, none, &(tasks[i]->dif));
 		if(i < total_finish)
 		{
@@ -152,5 +152,5 @@ void TaskToDo(homework** info)
 	return;
 }
 
-/*Este codigo fue eleaborado en parte de la estructura de la tarea 6 del curso de programacion en C,
-más consejos de mi hermano Arturo Sotelo, ing en software, que fueron de gran ayuda para corregir errores y darle un mejor sentido al programa*/
+/*Este codigo fue eleaborado en parte de la estructura de la tarea 7 del curso de programacion en C,
+mÃ¡s consejos de mi hermano Arturo Sotelo, ing en software, que fueron de gran ayuda para corregir errores y darle un mejor sentido al programa*/
