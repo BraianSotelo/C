@@ -1,1 +1,1 @@
-Task organizator
+Task organizer
