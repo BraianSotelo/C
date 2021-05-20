@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define MAX_LENGTH 20
 
-typedef struct {	//estructura para guardar la informaciÛn de las tareas
+typedef struct {	//estructura para guardar la informaci√≥n de las tareas
   char* name;
   unsigned int dif;
   unsigned int time;
@@ -17,5 +17,5 @@ int TotalTasks();
 void TaskToDo(homework** info);
 int FreeTime();
 
-/*Este codigo fue eleaborado en parte de la estructura de la tarea 6 del curso de programacion en C,
-m·s consejos de mi hermano Arturo Sotelo, ing en software, que fueron de gran ayuda para corregir errores y darle un mejor sentido al programa*/
+/*Este codigo fue eleaborado en parte de la estructura de la tarea 7 del curso de programacion en C,
+m√°s consejos de mi hermano Arturo Sotelo, ing en software, que fueron de gran ayuda para corregir errores y darle un mejor sentido al programa*/
