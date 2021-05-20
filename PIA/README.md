@@ -30,7 +30,7 @@ Self evaluation:
 
 2: functionality 3 (it compiles and works very well)
 
-3: code 3 (it is so much clean and have clear comments to understand)
+3: code 3 (it is clean and have clear comments to understand)
 
 4: storage 3 (use files and structures and good use of space)
 
